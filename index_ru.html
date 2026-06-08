@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
    <head>
       <title>Виктория Бибикова - Junior QA Engineer</title>
       <meta charset="utf-8">
@@ -12,11 +12,46 @@
       <script defer src="assets/fonts/all.min.js"></script>
       <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
       <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+      <style>
+         .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+         }
+         .language-switcher .btn-lang {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 5px 12px;
+            margin-left: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            transition: all 0.3s;
+         }
+         .language-switcher .btn-lang.active {
+            background-color: #4B6A9B;
+            color: white;
+            border-color: #4B6A9B;
+         }
+         .language-switcher .btn-lang:hover {
+            background-color: #6c8db8;
+            color: white;
+         }
+         .resume-wrapper {
+            position: relative;
+         }
+      </style>
    </head>
    <body>
       <div class="main-wrapper">
          <div class="container px-3 px-lg-5">
             <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg rounded">
+               <div class="language-switcher">
+                  <a href="index.html" class="btn-lang">EN</a>
+                  <a href="index_ru.html" class="btn-lang active">RU</a>
+               </div>
                <div class="resume-header">
                   <div class="row align-items-center">
                      <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
@@ -40,7 +75,7 @@
                         <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto rounded-circle" src="assets/img/myphoto.png" alt="image">
                      </div>
                      <div class="col text-start">
-                        <p class="mb-0">Имею коммерческий опыт мануального тестирования. Каждый день изучаю и углубляюсь в тему тестирования и прокачиваю профессиональные навыки, также обучаюсь автоматизированному тестированию на языке JavaScript. </p>
+                        <p class="mb-0">Имею коммерческий опыт мануального тестирования. Каждый день изучаю и углубляюсь в тему тестирования и прокачиваю профессиональные навыки, также обучаюсь автоматизированному тестированию на языке JavaScript.</p>
                      </div>
                   </div>
                </div>
@@ -129,9 +164,9 @@
                                  <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">All Young School 欧洋培训学校 | Работа в офисе | Февраль 2019 — Январь 2020</div>
                               </div>
                               <div class="item-content">
-                                 <p>Обучаясь в университете в г. Шанхае - работала part-time с детьми от 3-х до 13-ти лет. </p>
+                                 <p>Обучаясь в университете в г. Шанхае - работала part-time с детьми от 3-х до 13-ти лет.</p>
                                  <ul class="resume-list">
-                                    <li>Преподавание английского языка с объяснениями на китайском языке..</li>
+                                    <li>Преподавание английского языка с объяснениями на китайском языке.</li>
                                     <li>Заполнение документации. Построение плана урока.</li>
                                  </ul>
                               </div>
@@ -161,7 +196,7 @@
                                                 <img src="assets/img/certificates/cerf6.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                    <h5 class="card-title">Курс по JavaScript, Хекслет</h5>
-                                                   <p class="card-text small"> Подготовительный курс рофессии Frontend-разработчик.</p>
+                                                   <p class="card-text small"> Подготовительный курс профессии Frontend-разработчик.</p>
                                                    <div class="text-end">
                                                       <a href="https://drive.google.com/file/d/1ir5b3qyAfEItpNO84VNVrflzpL2-LbLb/view?usp=sharing" class="stretched-link"></a>
                                                    </div>
