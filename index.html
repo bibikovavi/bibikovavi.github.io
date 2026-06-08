@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Виктория Бибикова - Junior QA Engineer</title>
+      <title>Victoria Bibikova - Junior QA Engineer</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="">
       <meta name="author" content="Proglib">
-      <!-- <link rel="shortcut icon" href="assets/favicon.ico"> -->
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
       <script defer src="assets/fonts/all.min.js"></script>
       <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
       <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+      <style>
+         .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+         }
+         .language-switcher .btn-lang {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 5px 12px;
+            margin-left: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            transition: all 0.3s;
+         }
+         .language-switcher .btn-lang.active {
+            background-color: #4B6A9B;
+            color: white;
+            border-color: #4B6A9B;
+         }
+         .language-switcher .btn-lang:hover {
+            background-color: #6c8db8;
+            color: white;
+         }
+         .resume-wrapper {
+            position: relative;
+         }
+      </style>
    </head>
    <body>
       <div class="main-wrapper">
          <div class="container px-3 px-lg-5">
             <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg rounded">
+               <div class="language-switcher">
+                  <a href="index.html" class="btn-lang active">EN</a>
+                  <a href="index_ru.html" class="btn-lang">RU</a>
+               </div>
                <div class="resume-header">
                   <div class="row align-items-center">
                      <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-                        <h2 class="resume-name mb-0 text-uppercase">Виктория Бибикова</h2>
+                        <h2 class="resume-name mb-0 text-uppercase">Victoria Bibikova</h2>
                         <div class="resume-tagline mb-3 mb-md-0">Junior QA Engineer</div>
                      </div>
                      <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
@@ -28,7 +62,7 @@
                            <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">+7(984)141-76-71</a></li>
                            <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:#">bibikova.v@live.ru</a></li>
                            <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="https://www.linkedin.com/in/victoria-bibikova/">LinkedIn</a></li>
-                           <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Россия, Москва</li>
+                           <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Russia, Moscow</li>
                         </ul>
                      </div>
                   </div>
@@ -40,7 +74,7 @@
                         <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto rounded-circle" src="assets/img/myphoto.png" alt="image">
                      </div>
                      <div class="col text-start">
-                        <p class="mb-0">Имею коммерческий опыт мануального тестирования. Каждый день изучаю и углубляюсь в тему тестирования и прокачиваю профессиональные навыки, также обучаюсь автоматизированному тестированию на языке JavaScript. </p>
+                        <p class="mb-0">I have commercial experience in manual testing. Every day I study and deepen my knowledge in testing and improve my professional skills. I'm also learning automated testing using JavaScript.</p>
                      </div>
                   </div>
                </div>
@@ -49,96 +83,95 @@
                   <div class="row">
                      <div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
                         <section class="work-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Опыт работы</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
                            <div class="item mb-3">
                               <div class="item-heading row align-items-center mb-2">
-                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Тестировщик</h4>
-                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">МСН Телеком | в офисе | Май 2025 — по настоящее время</div>
+                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">QA Tester</h4>
+                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">MSN Telecom | On-site | May 2025 — Present</div>
                               </div>
                               <div class="item-content">
-<!--                                 <p><strong>Стек: Node.js, React JS, REST API</strong></p> -->
-                                 <p> Занималась ручным тестированием и улучшением голосовых ботов: проверяла диалоги, фиксировала баги, описывала сценарии и бизнес-процессы. Помогала в оптимизации и разработке голосовых ботов для систем телефонии.</p>
+                                 <p>I was engaged in manual testing and improvement of voice bots: checking dialogues, fixing bugs, describing scenarios and business processes. Helped in the optimization and development of voice bots for telephony systems.</p>
                                  <ul class="resume-list">
-                                    <li>Проведение ручного тестирования голосовых ботов, проверка сценариев общения, корректность распознавания речи и логику диалогов.</li>
-                                    <li>Ведение технической документации по реализованным проектам в <strong>TMS - Squash и Notion</strong>.</li>
-                                    <li>Подготовка схем бизнес-процессов (BPMN) и сценариев звонков.</li>
-                                    <li>Фиксация найденных ошибок, составление баг-репортов в <strong>Jira</strong> с последующим трекингом по исправлениям.</li>
-                                    <li>Создание и улучшение голосовых ботов в сервисе <strong>n8n, JavaScript</strong>.</li>
-                                    <li>Дополнительная работа со следующими инструментами: <strong>DevTools, pgAdmin 4, Graylog, Swagger, Postman, Grafana, OpenAI Playground</strong>.</li>
+                                    <li>Conducting manual testing of voice bots, checking communication scenarios, speech recognition accuracy and dialogue logic.</li>
+                                    <li>Maintaining technical documentation for implemented projects in <strong>TMS - Squash and Notion</strong>.</li>
+                                    <li>Preparation of business process diagrams (BPMN) and call scenarios.</li>
+                                    <li>Recording found errors, creating bug reports in <strong>Jira</strong> with subsequent tracking of fixes.</li>
+                                    <li>Creating and improving voice bots in <strong>n8n, JavaScript</strong> service.</li>
+                                    <li>Additional work with the following tools: <strong>DevTools, pgAdmin 4, Graylog, Swagger, Postman, Grafana, OpenAI Playground</strong>.</li>
                                  </ul>
                                  <hr>
                               </div>
                            </div>
                            <div class="item mb-3">
                               <div class="item-heading row align-items-center mb-2">
-                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Junior QA / Начинающий тестировщик</h4>
-                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Bember | удаленно | Март 2024 — Май 2025</div>
+                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Junior QA / Entry-Level Tester</h4>
+                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Bember | Remote | March 2024 — May 2025</div>
                               </div>
                               <div class="item-content">
-                                <p><strong>Стек: Node.js, React JS, REST API</strong></p>
-                                 <p>Проводила функциональное и нефункциональное ручное тестирование фронтенда методом «Черный ящик», тестирование пользовательского интерфейса (UI) для веб-сайтов и внутреннего портала для организаций. Работала в Agile / Scrum команде.</p>
+                                <p><strong>Stack: Node.js, React JS, REST API</strong></p>
+                                 <p>Conducted functional and non-functional manual frontend testing using the Black Box method, user interface (UI) testing for websites and internal corporate portals. Worked in an Agile/Scrum team.</p>
                                  <ul class="resume-list">
-                                    <li>Применяла Ad-Hoc тестирование - без использования каких-либо спецификаций, планов и разработанных изначально тест-кейсов.</li>
-                                    <li>Разрабатывала тестовую документацию, составляла тест-кейсы, чек-листы с нуля, сопровождая дальнейшей поддержкой и актуализацией документации.</li>
-                                    <li>Проводила кроссбраузерное и кроссплатформенное тестирование на Windows, macOS, iOS-устройствах.</li>
-                                    <li>Описывала дефекты и оформляла баг-репорты в системе <strong>Youtrack</strong>.</li>
-                                    <li>Работала с консолью разработчика <strong>DevTools</strong>.</li>
-                                    <li>Занималась бэкенд-тестированием <strong>REST  API</strong> (<strong>Postman</strong> – использование методов get, post, put, delete).</li>
-                                    <li>Базовый опыт работы с <strong>VS Code</strong>.</li>
-                                    <li>Базовые знания <strong>HTML, CSS, JavaScript</strong>.</li>
+                                    <li>Applied Ad-Hoc testing - without using any specifications, plans, or pre-developed test cases.</li>
+                                    <li>Developed test documentation, created test cases, checklists from scratch, with subsequent maintenance and updating of documentation.</li>
+                                    <li>Conducted cross-browser and cross-platform testing on Windows, macOS, iOS devices.</li>
+                                    <li>Described defects and created bug reports in <strong>Youtrack</strong> system.</li>
+                                    <li>Worked with <strong>DevTools</strong> developer console.</li>
+                                    <li>Performed backend testing of <strong>REST API</strong> (<strong>Postman</strong> – using get, post, put, delete methods).</li>
+                                    <li>Basic experience with <strong>VS Code</strong>.</li>
+                                    <li>Basic knowledge of <strong>HTML, CSS, JavaScript</strong>.</li>
                                  </ul>
                                  <hr>
                               </div>
                            </div>
                            <div class="item mb-3">
                               <div class="item-heading row align-items-center mb-2">
-                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Руководитель отдела продукции</h4>
-                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">ООО «КС» | Работа в офисе | Август 2022 — Июнь 2024</div>
+                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Product Department Head</h4>
+                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">KS LLC | On-site | August 2022 — June 2024</div>
                               </div>
                               <div class="item-content">
-                                 <p>Работала в области логистики, получила ценный опыт организации и координирования командой в количестве 4-х человек: обучение, контроль, постановка задач, контроль исполнения.</p>
+                                 <p>Worked in logistics, gained valuable experience in organizing and coordinating a team of 4 people: training, control, task setting, performance monitoring.</p>
                                  <ul class="resume-list">
-                                    <li>Также затронула тестирование рабочей платформы перед релизом.</li>
-                                    <li>Помогала в развитии платформы компании, подключение подрядчиков, конструирование заказов.</li>
-                                    <li>Развитие долгосрочных партнерских отношений с подрядчиками, работа с документацией.</li>
-                                    <li>Анализ рынка и составление плана оптимальных логистических решений по перевозке контейнеров в регионы в спросе.</li>
+                                    <li>Also involved in testing the work platform before release.</li>
+                                    <li>Helped in the development of the company's platform, connecting contractors, order structuring.</li>
+                                    <li>Development of long-term partnerships with contractors, working with documentation.</li>
+                                    <li>Market analysis and development of optimal logistics solutions for container transportation to regions in demand.</li>
                                  </ul>
                                  <hr>
                               </div>
                            </div>
                            <div class="item mb-3">
                               <div class="item-heading row align-items-center mb-2">
-                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0  text-primary">Ассистент на онлайн-площадках</h4>
-                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Фриланс | удаленно | Февраль 2022 — Август 2022</div>
+                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0  text-primary">Assistant on Online Platforms</h4>
+                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Freelance | Remote | February 2022 — August 2022</div>
                               </div>
                               <div class="item-content">
-                                 <p>Впервые столкнулась со сферой <strong>тестирования</strong> и разработкой онлайн-проектов.</p>
+                                 <p>First encountered the field of <strong>testing</strong> and development of online projects.</p>
                                  <ul class="resume-list">
-                                    <li>Проверка работоспособности и <strong>тестирование</strong> площадок и веб-сервисов.</li>
-                                    <li>Составление списков доработок и несоответствий.</li>
-                                    <li>Контроль за выполнением текущих проектов, реализацией планов.</li>
-                                    <li>Сбор, анализ, предоставление нужных сведений руководителю.</li>
-                                    <li>Поиск подрядчиков, составление технического задания.</li>
+                                    <li>Checking functionality and <strong>testing</strong> platforms and web services.</li>
+                                    <li>Compiling lists of improvements and discrepancies.</li>
+                                    <li>Monitoring the execution of current projects, implementation of plans.</li>
+                                    <li>Collecting, analyzing, providing necessary information to the manager.</li>
+                                    <li>Searching for contractors, creating technical specifications.</li>
                                  </ul>
                                  <hr>
                               </div>
                            </div>
                            <div class="item">
                               <div class="item-heading row align-items-center mb-2">
-                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">Учитель английского языка</h4>
-                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">All Young School 欧洋培训学校 | Работа в офисе | Февраль 2019 — Январь 2020</div>
+                                 <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0 text-primary">English Teacher</h4>
+                                 <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">All Young School | On-site | February 2019 — January 2020</div>
                               </div>
                               <div class="item-content">
-                                 <p>Обучаясь в университете в г. Шанхае - работала part-time с детьми от 3-х до 13-ти лет. </p>
+                                 <p>While studying at university in Shanghai - worked part-time with children aged 3 to 13 years.</p>
                                  <ul class="resume-list">
-                                    <li>Преподавание английского языка с объяснениями на китайском языке..</li>
-                                    <li>Заполнение документации. Построение плана урока.</li>
+                                    <li>Teaching English with explanations in Chinese.</li>
+                                    <li>Filling out documentation. Creating lesson plans.</li>
                                  </ul>
                               </div>
                            </div>
                         </section>
                         <section class="project-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Сертификаты</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Certificates</h3>
                            <div id="carouselResumeControls" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="false">
                               <div class="carousel-inner">
                                  <div class="carousel-item active">
@@ -160,8 +193,8 @@
                                              <div class="card" >
                                                 <img src="assets/img/certificates/cerf6.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                   <h5 class="card-title">Курс по JavaScript, Хекслет</h5>
-                                                   <p class="card-text small"> Подготовительный курс рофессии Frontend-разработчик.</p>
+                                                   <h5 class="card-title">JavaScript Course, Hexlet</h5>
+                                                   <p class="card-text small">Preparatory course for Frontend-developer profession.</p>
                                                    <div class="text-end">
                                                       <a href="https://drive.google.com/file/d/1ir5b3qyAfEItpNO84VNVrflzpL2-LbLb/view?usp=sharing" class="stretched-link"></a>
                                                    </div>
@@ -172,8 +205,8 @@
                                              <div class="card">
                                                 <img src="assets/img/certificates/cerf3.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                   <h5 class="card-title">Курс по JavaScript, Степик</h5>
-                                                   <p class="card-text small">Погружение в JavaScript: для начинающих.</p>
+                                                   <h5 class="card-title">JavaScript Course, Stepik</h5>
+                                                   <p class="card-text small">Diving into JavaScript: for beginners.</p>
                                                    <div class="text-end">
                                                       <a href="https://stepik.org/cert/2677697?lang=en" class="stretched-link"></a>
                                                    </div>
@@ -190,8 +223,8 @@
                                              <div class="card" >
                                                 <img src="assets/img/certificates/serf1.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                   <h5 class="card-title">Тестирование ПО, Степик</h5>
-                                                   <p class="card-text small">Тестирование ПО с нуля. Теория + Практика.</p>
+                                                   <h5 class="card-title">Software Testing, Stepik</h5>
+                                                   <p class="card-text small">Software Testing from scratch. Theory + Practice.</p>
                                                    <div class="text-end">
                                                       <a href="https://stepik.org/cert/2514720?lang=en" class="stretched-link"></a>
                                                    </div>
@@ -202,8 +235,8 @@
                                              <div class="card" >
                                                 <img src="assets/img/certificates/serf2.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                   <h5 class="card-title">Тестирование ПО, Степик</h5>
-                                                   <p class="card-text small">Тестирование ПО с Нуля до Специалиста.</p>
+                                                   <h5 class="card-title">Software Testing, Stepik</h5>
+                                                   <p class="card-text small">Software Testing from Beginner to Specialist.</p>
                                                    <div class="text-end">
                                                       <a href="https://stepik.org/cert/2534661?lang=en" class="stretched-link"></a>
                                                    </div>
@@ -214,8 +247,8 @@
                                              <div class="card" >
                                                 <img src="assets/img/certificates/cerf4.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                   <h5 class="card-title">Постман, Степик</h5>
-                                                   <p class="card-text small">Postman: с нуля до автотестов.</p>
+                                                   <h5 class="card-title">Postman, Stepik</h5>
+                                                   <p class="card-text small">Postman: from zero to automated tests.</p>
                                                    <div class="text-end">
                                                       <a href="https://stepik.org/cert/2527175?lang=en" class="stretched-link"></a>
                                                    </div>
@@ -239,14 +272,14 @@
                      </div>
                      <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
                         <section class="skills-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Навыки</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
                            <div class="item">
-                              <h4 class="item-title">Технические</h4>
+                              <h4 class="item-title">Technical</h4>
                               <ul class="list-unstyled resume-skills-list">
-                                 <li class="mb-2">Ручное тестирование</li>
-                                 <li class="mb-2">Функциональное | нефункциональное тестирование</li>
-                                 <li class="mb-2">Техники Тест-Дизайна</li>
-                                 <li class="mb-2">Теория Тестирования</li>
+                                 <li class="mb-2">Manual Testing</li>
+                                 <li class="mb-2">Functional | Non-functional Testing</li>
+                                 <li class="mb-2">Test Design Techniques</li>
+                                 <li class="mb-2">Testing Theory</li>
                                  <li class="mb-2">DevTools</li>
                                  <li class="mb-2">REST API | Postman</li>
                                  <li class="mb-2">PostgreSQL | MySQL</li>
@@ -256,51 +289,50 @@
                               </ul>
                            </div>
                            <div class="item">
-                              <h4 class="item-title">Личные</h4>
+                              <h4 class="item-title">Personal</h4>
                               <ul class="list-unstyled resume-skills-list">
-                                 <li class="mb-2">Внимательность к деталям</li>
-                                 <li class="mb-2">Коммуникабельность</li>
-                                 <li class="mb-2">Быстрая обучаемость</li>
-                                 <li class="mb-2">Аналитическое мышление</li>
-                                 <li class="mb-2">Критическое мышление</li>
+                                 <li class="mb-2">Attention to Detail</li>
+                                 <li class="mb-2">Communication Skills</li>
+                                 <li class="mb-2">Fast Learner</li>
+                                 <li class="mb-2">Analytical Thinking</li>
+                                 <li class="mb-2">Critical Thinking</li>
                               </ul>
                            </div>
                         </section>
                         <section class="education-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Образование</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
                            <ul class="list-unstyled resume-education-list">
                             <li class="mb-3">
-                                <div class="resume-degree font-weight-bold">Automation QA JavaScript (курсы)</div>
+                                <div class="resume-degree font-weight-bold">Automation QA JavaScript (Course)</div>
                                 <div class="resume-degree-org text-muted">RedRover.School</div>
                                 <div class="resume-degree-time text-muted">01.2025 - 05.2025</div>
                              </li>
                               <li class="mb-3">
-                                 <div class="resume-degree font-weight-bold">Менеджмент (второе высшее)</div>
-                                 <div class="resume-degree-org text-muted">Открытый институт</div>
+                                 <div class="resume-degree font-weight-bold">Management (Second Higher Education)</div>
+                                 <div class="resume-degree-org text-muted">Open Institute</div>
                                  <div class="resume-degree-time text-muted">2020 - 2024</div>
                               </li>
                               <li>
-                                 <div class="resume-degree font-weight-bold">Международное экономическое право (бакалавр)</div>
-                                 <div class="resume-degree-org text-muted">Восточно-китайский политический университет науки и права (ECUPL)</div>
+                                 <div class="resume-degree font-weight-bold">International Economic Law (Bachelor's)</div>
+                                 <div class="resume-degree-org text-muted">East China University of Political Science and Law (ECUPL)</div>
                                  <div class="resume-degree-time text-muted">2018 - 2022</div>
                               </li>
                            </ul>
                         </section>
                         <section class="skills-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Языки</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
                            <ul class="list-unstyled resume-lang-list">
-                              <li class="mb-2">Русский <span class="text-muted">Родной</span></li>
-                              <li>Английский <span class="text-muted">B2</span></li>
-                              <li>Китайский <span class="text-muted">B1</span></li>
+                              <li class="mb-2">Russian <span class="text-muted">Native</span></li>
+                              <li>English <span class="text-muted">B2</span></li>
+                              <li>Chinese <span class="text-muted">B1</span></li>
                            </ul>
                         </section>
                         <section class="skills-section py-3">
-                           <h3 class="text-uppercase resume-section-heading mb-4">Интересы</h3>
+                           <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
                            <ul class="list-unstyled resume-interests-list mb-0">
-                              <li class="mb-2">Тимлидство в Sandbox</li>
-<!--                               <li class="mb-2">Вязание крючком (развивает усидчивость и внимательность к деталям)</li> -->
-                              <li class="mb-2">Занятия спортом</li>
-                              <li class="mb-2">Чтение книг</li>
+                              <li class="mb-2">Team Lead in Sandbox</li>
+                              <li class="mb-2">Sports</li>
+                              <li class="mb-2">Reading Books</li>
                            </ul>
                         </section>
                      </aside>
